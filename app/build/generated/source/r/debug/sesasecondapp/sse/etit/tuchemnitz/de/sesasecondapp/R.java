@@ -1323,7 +1323,6 @@ containing a value of this type.
         public static final int button1=0x7f080043;
         public static final int checkbox=0x7f080029;
         public static final int collapseActionView=0x7f080017;
-        public static final int container=0x7f08003f;
         public static final int decor_content_parent=0x7f08002f;
         public static final int default_activity_button=0x7f080024;
         public static final int dialog=0x7f08001b;
@@ -1334,6 +1333,7 @@ containing a value of this type.
         public static final int end=0x7f080014;
         public static final int expand_activities_button=0x7f080022;
         public static final int expanded_menu=0x7f080028;
+        public static final int fragment_placeholder=0x7f08003f;
         public static final int home=0x7f080004;
         public static final int homeAsUp=0x7f08000d;
         public static final int icon=0x7f080026;
