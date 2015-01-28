@@ -9,9 +9,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends Activity {
 
+    public static final String HANDOVER_PARAMETER = "handoverparameter";
     public static final String LOGTAG = "logtagmainactivity";
 
     private MainFragment mainFragment;
@@ -27,7 +29,7 @@ public class MainActivity extends Activity {
 
         //instantiation of fragments (the bundle )
         mainFragment = (MainFragment) Fragment.instantiate(this, MainFragment.class.getName(), null);
-        displayMessageFragment = (DisplayMessageFragment) Fragment.instantiate(this, DisplayMessageFragment.class.getName(), null);
+        displayMessageFragment = (DisplayMessageFragment) Fragment.instantiate(this, DisplayMessageFragment.class.getName(), bundle);
 
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -60,6 +62,7 @@ public class MainActivity extends Activity {
         FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
 
         if (view == findViewById(R.id.button1)){
+            onStoreText();
             Log.d(LOGTAG, "button1 press");
             fragmentTransaction.replace(R.id.fragment_placeholder, displayMessageFragment);
             Log.d(LOGTAG, "change fragment to displaymessage");
@@ -71,6 +74,11 @@ public class MainActivity extends Activity {
         fragmentTransaction.commit();
     }
 
+    public void onStoreText(){
+        EditText editText = (EditText) findViewById(R.id.editText1);
+        String parameter = editText.getText().toString();
+        Log.i(LOGTAG, "Save String " + parameter);
 
-
+        bundle.putString(HANDOVER_PARAMETER, parameter);
+    }
 }
