@@ -355,7 +355,6 @@ int id beginning 0x7f080013
 int id button1 0x7f080043
 int id checkbox 0x7f080029
 int id collapseActionView 0x7f080017
-int id container 0x7f08003f
 int id decor_content_parent 0x7f08002f
 int id default_activity_button 0x7f080024
 int id dialog 0x7f08001b
@@ -366,6 +365,7 @@ int id edit_query 0x7f080033
 int id end 0x7f080014
 int id expand_activities_button 0x7f080022
 int id expanded_menu 0x7f080028
+int id fragment_placeholder 0x7f08003f
 int id home 0x7f080004
 int id homeAsUp 0x7f08000d
 int id icon 0x7f080026
