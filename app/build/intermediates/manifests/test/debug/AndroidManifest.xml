@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sesasecondapp.sse.etit.tuchemnitz.de.sesasecondapp.test">
+
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="21" />
+
+    <application>
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="android.test.InstrumentationTestRunner"
+                     android:targetPackage="sesasecondapp.sse.etit.tuchemnitz.de.sesasecondapp"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for sesasecondapp.sse.etit.tuchemnitz.de.sesasecondapp"/>
+</manifest>

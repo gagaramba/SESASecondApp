@@ -1,0 +1,5 @@
+/Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/classes/debug
+/Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8a1af52430ee443b8387011315efe804203d3c0f.jar
+/Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ce0bea4b692a5c0ed7f2fb904569c7f6a2e60480.jar
+/Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/pre-dexed/debug/classes-1b774bb13f99f199917c326ff2ca6671ffaac6fb.jar
+/Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/pre-dexed/debug/classes-e6af51d5ac722cc69bcede1d74943fb21373d0c2.jar

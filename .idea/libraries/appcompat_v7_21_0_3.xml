@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="appcompat-v7-21.0.3">
+    <CLASSES>
+      <root url="jar:///Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar!/" />
+      <root url="file:///Volumes/data/rlentz/AndroidStudioProjects/SESASecondApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
